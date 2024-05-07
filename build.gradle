@@ -27,6 +27,15 @@ dependencies {
 
     // thymeleaf
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    // jdbc
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+
+    // jpa
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // mysql-connector-j
+    runtimeOnly 'com.mysql:mysql-connector-j'
 }
 
 tasks.named('test') {
